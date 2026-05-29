@@ -4,7 +4,7 @@ public class QuickSort {
     Average: O(nlogn)
     Worst:O(n^2) */
     // Quick Sort using first element as pivot
-    public static void sort(int a[],int si,int ei){//pivot as first element
+    /* public static void sort(int a[],int si,int ei){//pivot as first element
         if(si>=ei){
             return;
         }
@@ -28,7 +28,7 @@ public class QuickSort {
         }
         sort(a,si,right);
         sort(a,left,ei);
-    }
+    } */
    // Quick Sort using last element as pivot
     /* public static void sort(int a[],int si, int ei){//pivot as end element
         if(si>=ei){
@@ -56,7 +56,7 @@ public class QuickSort {
         sort(a,left,ei);
     } */
    // Quick Sort using middle element as pivot
-   /* public static void sort(int a[],int si,int ei){//pivot as mid element
+   public static void sort(int a[],int si,int ei){//pivot as mid element
         if(si>=ei){
             return;
         }
@@ -81,7 +81,7 @@ public class QuickSort {
         }
         sort(a,si,right);
         sort(a,left,ei);
-    } */
+    }
     public static void main(String[] args){
         Scanner in =new Scanner(System.in);
         System.out.println("Enter the size of array");
