@@ -1,4 +1,4 @@
-public class NumberPyramid {
+public class NumberPyramid1 {
     public static void main(String[] args){
 
         /* 1
